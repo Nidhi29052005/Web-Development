@@ -1,0 +1,548 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 0;
+}
+
+
+.header {
+    background-image: url(carousel-1.jpg);
+    opacity: 1;
+    height: 548px;
+    background-size: cover;
+
+}
+
+.txt {
+    background-color: #181d38;
+    opacity: 0.6;
+    margin: 0;
+    padding: 10PX;
+    background-size: cover;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.l {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f0a500;
+}
+
+.one {
+    font-size: 100px;
+    color: #ffffff;
+
+}
+
+.two {
+    font-size: 20px;
+    color: #f0f0f0;
+}
+
+.E {
+    color: rgb(251, 245, 233);
+    margin: 20PX;
+}
+
+
+aside {
+    width: 10%;
+    float: right;
+    background-color: rgb(227, 167, 103);
+    height: 100%;
+    border: 4px black;
+    border-style: double;
+    padding: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.all {
+    width: 90%;
+}
+
+.a {
+    width: 50%;
+    align-items: center;
+}
+
+.b {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.banner {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+    border: 5 px solid black;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: orange
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 10px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Adjustments for the banner section */
+.banner1 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    -moz-box-align: center;
+}
+
+.image-container img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Elevation effect */
+}
+
+.content1 h2 {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.content1 p {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.list-group-item {
+    background-color: transparent; /* Make it blend with the background */
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    padding: 10px 0;
+    border: none;
+}
+
+
+
+
+.banner2 {
+    display: flex;
+    margin: 150px;
+    background-color: #d5ebf3;
+    border-radius: 10px;
+    width: 80%;
+
+
+}
+
+.image-container2 {
+    flex: 1;
+    position: relative;
+    background-size: cover;
+
+}
+
+.image-container2 img {
+    width: 90%;
+    height: auto;
+}
+
+
+
+.content2 {
+    flex: 2;
+    padding: 20px;
+
+}
+
+.content2 h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content2 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.start-for-free-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.start-for-free-btn:hover {
+    background-color: white;
+    color: #007bff;
+}
+
+
+
+
+h2 {
+    color: orange;
+}
+
+
+.categories {
+    text-align: center;
+    margin: 100px;
+
+}
+
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ccc;
+    height:max-content;
+}
+
+.topic {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: black;
+    border: 2px blanchedalmond solid;
+    height: 200px;
+    border-radius: 10px;
+
+
+}
+
+.topic:hover {
+    background-color: orange;
+}
+
+.topic img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+h1 {
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h3 {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.courses {
+    text-align: center;
+    margin: 40px;
+    background-color: rgb(230, 227, 223);
+
+
+}
+
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course {
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin: 10px;
+    height: auto;
+    background-color: rgb(173, 171, 169);
+    border-radius: 20px;
+}
+
+.course:hover {
+    background-color: rgb(98, 98, 201);
+}
+
+.course img {
+    max-width: 100%;
+    height: 80px;
+
+}
+
+.course h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.course p {
+    margin: 5px 0;
+}
+
+.course .price {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.course button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #181d38;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.social-icons {
+    display: flex;
+}
+
+.footer-bottom {
+    text-align: center;
+
+}
+
+.i {
+    height: 20px;
+    width: 20px;
+}
+
+.j {
+    height: 40px;
+    width: 50px;
+}
+
+BUTTON:HOVER {
+    COLOR: GREEN;
+    background-color: WHITE;
+}
+
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.login-container {
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+
+    background-color: #f6f4f4;
+
+}
+
+.three {
+    font-size: 60px;
+    color: white;
+}
+
+.login {
+    background-image: url(carousel-2.jpg);
+    opacity: 0.9;
+
+}
+
+.about {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 15px;
+    padding: 15px;
+}
+
+.h {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+/* Courses Section Styling */
+.container {
+    margin:0px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px; /* Smaller width */
+    height:400px; /* Content determines height */
+    
+}
+    
+.card-img-top{
+    height:200px;
+    width: 300px;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Intensify shadow */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin: 10px auto;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .scroll-to-top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+}
+
+#testimonials .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#testimonials .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+

@@ -1,0 +1,290 @@
+{% extends "layout.html" %}
+{% block body %}
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduvibe</title>
+    <link rel="icon" href="{{ url_for('static',filename='icon.png')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style3.css')}}">-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+
+<!--</head>
+
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo"><img src="{{ url_for('static',filename='icon.png')}}" class="l">EduVibe</div>
+        <ul class="nav-links">
+            <li><a href="code.html"><img src="{{ url_for('static',filename='home.jpg')}}"class="h"> Home</a></li>
+            <li><a href="about.html"><img src="img\about1.jpg" class="h">About</a>
+            </li>
+            <li><a href="courses.html"><img src="{{ url_for('static',filename='courses.jpg')}}"
+                        class="h">Courses</a></li>
+            <li><a href="login.html"><img src="{{ url_for('static',filename='login1.jpg')}}" class="h">Login</a>
+            </li>
+        </ul>
+    </nav> -->
+
+
+    <div class="login">
+        <div class="txt">
+            <br><br>
+            <center>
+                <p class="three">COURSES</p>
+                <p class="two">EXXPLORE YOUR POTENTIAL</p>
+        </div>
+        </center>
+    </div>
+    <pre>
+
+
+
+
+       </pre>
+    <center>
+
+
+            
+
+           <section class="categories">
+
+
+            <h3>------CATEGORIES-------</h3>
+    
+            <h1>POPULAR CATEGORIES TO EXPLORE</h1>
+            <div class="topics">
+                <div class="topic">
+                    <img src="{{ url_for('static',filename='cat1.png')}}" alt="Microsoft Excel">
+                    <h3>Microsoft Excel</h3>
+                </div>
+                <div class="topic">
+                    <img src="{{ url_for('static',filename='cat2.png')}}" alt="AWS">
+                    <h3>AWS</h3>
+                </div>
+                <div class="topic">
+                    <img src="{{ url_for('static',filename='cat3.png')}}" alt="Python">
+                    <h3>Python</h3>
+                </div>
+                <div class="topic">
+                    <img src="{{ url_for('static',filename='cat4.png')}}" alt="Java">
+                    <h3>Java</h3>
+                </div>
+                <div class="topic">
+                    <img src="{{ url_for('static',filename='cat5.png')}}" alt="Web Design">
+                    <h3>Web Design</h3>
+                </div>
+                <div class="topic">
+                    <img src="{{ url_for('static',filename='cat6.png')}}" alt="Web Development">
+                    <h3>Web Development</h3>
+                </div>
+                <div class="topic">
+                    <img src="{{ url_for('static',filename='cat7.png')}}" alt="MySQL">
+                    <h3>MySQL</h3>
+                </div>
+                <div class="topic">
+                    <img src="{{ url_for('static',filename='cat8.png')}}" alt="UI/UX Design">
+                    <h3>UI/UX Design</h3>
+                </div>
+            </div>
+        </section>
+        <pre>
+    
+    
+        </pre>
+    
+        <div class="container my-5">
+            <EM class="text-center">
+                <h1>POPULAR COURSES</h1>
+            </EM>
+    
+            <H3 class="text-center">
+                <p>------Explore new and trending free online courses-------</p>
+            </H3>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-1.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML Course for Beginners</h5>
+                            <p class="card-text">4.55 (83.5k+ learners) | 2.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-2.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Front end engineering</h5>
+                            <p class="card-text">5.6 (75.5k+ learners) | 30.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-3.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Javascript</h5>
+                            <p class="card-text">4.8 (83.5k+ learners) | 12.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-4.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Programming</h5>
+                            <p class="card-text">4.6 (101.5k+ learners) | 52.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-5.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Chat GPT for Beginners</h5>
+                            <p class="card-text">4.05 (60.5k+ learners) | 2.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-6.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">My SQL</h5>
+                            <p class="card-text">4.2 (53.5k+ learners) | 3.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-7.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">AWS for Beginners</h5>
+                            <p class="card-text">4.55 (83.5k+ learners) | 6.0 Hrs</p>
+                            
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-8.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Microsoft Azure</h5>
+                            <p class="card-text">4.7 (42.5k+ learners) | 5.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-9.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Excel</h5>
+                            <p class="card-text">4.55 (83.5k+ learners) | 10.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-10.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Science</h5>
+                            <p class="card-text">4.55 (83.5k+ learners) | 12.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                    </div>
+                </div><div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-11.jpg')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">JAVA</h5>
+                            <p class="card-text">4.55 (83.5k+ learners) | 52.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                    </div>
+                </div><div class="col-md-3">
+                    <div class="card">
+                        <img src="{{ url_for('static',filename='course-12.png')}}" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">C</h5>
+                            <p class="card-text">4.6 (97.5k+ learners) | 52.0 Hrs</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- <footer>
+            <div class="footer-container">
+    
+                <div class="footer-section">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">About Us</a></li><br>
+                        <li><a href="#">Contact Us</a></li><br>
+                        <li><a href="#">Privacy Policy</a></li><br>
+                        <li><a href="#">Terms & Condition</a></li><br>
+                        <li><a href="#">FAQs & Help</a></li>
+                    </ul>
+                </div>
+                
+    
+    
+                <div class="footer-section">
+    
+                    <h2>Contact</h2>
+                    <p><img src="https://i.pinimg.com/736x/c2/fa/17/c2fa17bc1ac310c010abf6283cdb52ce.jpg" class="i">
+                        &nbsp;&nbsp;Chitkara University, Rajpura, Punjab</p>
+                    <p><img src="https://e7.pngegg.com/pngimages/54/563/png-clipart-mobile-phones-telephone-call-logo-others-miscellaneous-text-thumbnail.png"
+                            class="i">&nbsp;&nbsp;+91 93508 77832</p>
+                    <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDLZ0uLMoPnrKlsl9HYAHYDM3obnmZRL7X6jN3KpRHYXUcE3Y927zQ-epomz9XuNT91hQ&usqp=CAU"
+                            class="i">&nbsp;&nbsp;eduvibe@gmail.com</p>
+                    <ul class="social-icons">
+                        <li><a href="#"></i></a></li>
+                        <li><a href="#"><img
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXeFK2NtY-Ljhq7Fo_sAhlGNjWABnNFVaWIQ&s"
+                                    class="j"></a></li>&nbsp;&nbsp;
+                        <li><a href="#"><img
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJeJlx-HEr29YIB4b0GVBxDSAEEmQnRNFcMQ&s"
+                                    class="j"></a></li>&nbsp;&nbsp;
+                        <li><a href="#"><img
+                                    src="https://cdn.exchangewire.com/wp-content/uploads/2018/03/instagram-logo-e1589969351425.jpg"
+                                    class="j"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h2>Subscribe to our Newsletter</h2>
+                    <p>Subscribe now and join our growing community of learners committed to lifelong education!</p>
+                    <form>
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p>&copy; EduVibe, All Rights Reserved.</p>
+            </div>
+        </footer> -->
+    <!-- </center>
+</body>
+
+</html> -->
+{% endblock %}

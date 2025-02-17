@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduvibe</title>
+    <link rel="icon" href="{{ url_for('static',filename='icon.png')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style3.css')}}">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><img src="{{ url_for('static',filename='icon.png')}}" class="l">EduVibe</div>
+        <ul class="nav-links">
+            <li><a href="code.html"><img src="{{ url_for('static',filename='home.jpg')}}"class="h"> Home</a></li>
+            <li><a href="about.html"><img src="{{ url_for('static',filename='about1.jpg')}}" class="h">About</a>
+            </li>
+            <li><a href="courses.html"><img src="{{ url_for('static',filename='courses.jpg')}}"
+                        class="h">Courses</a></li>
+            <li><a href="login.html"><img src="{{ url_for('static',filename='login1.jpg')}}" class="h">Login</a>
+            </li>
+        </ul>
+    </nav>
+
+
+{% block body %} {% endblock %}
+
+<footer>
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">About Us</a></li><br>
+                <li><a href="#">Contact Us</a></li><br>
+                <li><a href="#">Privacy Policy</a></li><br>
+                <li><a href="#">Terms & Condition</a></li><br>
+                <li><a href="#">FAQs & Help</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+
+            <h2>Contact</h2>
+            <p><img src="https://i.pinimg.com/736x/c2/fa/17/c2fa17bc1ac310c010abf6283cdb52ce.jpg" class="i">
+                &nbsp;&nbsp;Chitkara University, Rajpura, Punjab</p>
+            <p><img src="https://e7.pngegg.com/pngimages/54/563/png-clipart-mobile-phones-telephone-call-logo-others-miscellaneous-text-thumbnail.png"
+                    class="i">&nbsp;&nbsp;+91 93508 77832</p>
+            <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDLZ0uLMoPnrKlsl9HYAHYDM3obnmZRL7X6jN3KpRHYXUcE3Y927zQ-epomz9XuNT91hQ&usqp=CAU"
+                    class="i">&nbsp;&nbsp;eduvibe@gmail.com</p>
+            <ul class="social-icons">
+                <li><a href="#"></i></a></li>
+                <li><a href="#"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXeFK2NtY-Ljhq7Fo_sAhlGNjWABnNFVaWIQ&s"
+                            class="j"></a></li>&nbsp;&nbsp;
+                <li><a href="#"><img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJeJlx-HEr29YIB4b0GVBxDSAEEmQnRNFcMQ&s"
+                            class="j"></a></li>&nbsp;&nbsp;
+                <li><a href="#"><img
+                            src="https://cdn.exchangewire.com/wp-content/uploads/2018/03/instagram-logo-e1589969351425.jpg"
+                            class="j"></a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Subscribe now and join our growing community of learners committed to lifelong education!</p>
+            <form>
+                <input type="email" placeholder="Your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+        <p>&copy; EduVibe, All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+
+</html> 
