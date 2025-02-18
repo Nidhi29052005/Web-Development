@@ -19,8 +19,9 @@
             </li>
             <li><a href="courses.html"><img src="{{ url_for('static',filename='courses.jpg')}}"
                         class="h">Courses</a></li>
-            <li><a href="login.html"><img src="{{ url_for('static',filename='login1.jpg')}}" class="h">Login</a>
-            </li>
+            <li><a href="{{ url_for('login') }}"><img src="{{ url_for('static',filename='login1.jpg')}}" class="h">Login</a>
+                <li><a href="{{ url_for('signup') }}"><img src="{{ url_for('static',filename='signup.jpg')}}" class="h"> Signup</a></li>
+
         </ul>
     </nav>
 
